@@ -1,49 +1,52 @@
 adr new First Record
-doc/adr/0001-first-record.md
+doc/adr/001-first-record.md
 adr new Second Record
-doc/adr/0002-second-record.md
+doc/adr/002-second-record.md
 adr new Third Record
-doc/adr/0003-third-record.md
+doc/adr/003-third-record.md
 adr link 3 Amends 1 "Amended by"
 adr link 3 Clarifies 2 "Clarified by"
-head -12 doc/adr/0001-first-record.md
+head -13 doc/adr/001-first-record.md
 # 1. First Record
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-Accepted
+提案中
 
-Amended by [3. Third Record](0003-third-record.md)
+Amended by [3. Third Record](003-third-record.md)
 
-## Context
+## コンテキストと問題点の説明
 
-head -12 doc/adr/0002-second-record.md
+head -13 doc/adr/002-second-record.md
 # 2. Second Record
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-Accepted
+提案中
 
-Clarified by [3. Third Record](0003-third-record.md)
+Clarified by [3. Third Record](003-third-record.md)
 
-## Context
+## コンテキストと問題点の説明
 
-head -14 doc/adr/0003-third-record.md
+head -15 doc/adr/003-third-record.md
 # 3. Third Record
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-Accepted
+提案中
 
-Amends [1. First Record](0001-first-record.md)
+Amends [1. First Record](001-first-record.md)
 
-Clarifies [2. Second Record](0002-second-record.md)
+Clarifies [2. Second Record](002-second-record.md)
 
-## Context
+## コンテキストと問題点の説明
 

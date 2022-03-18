@@ -23,11 +23,10 @@ This template follows the style described by Michael Nygard in this article.
 
 Options:
 
--s SUPERCEDED   A reference (number or partial filename) of a previous
-                decision that the new decision supercedes. A Markdown link
-                to the superceded ADR is inserted into the Status section.
-                The status of the superceded ADR is changed to record that
-                it has been superceded by the new ADR.
+-s SUPERCEDED    過去のADR番号またはADRファイル名の一部。
+                 新しいADRが提案中のステータスで作成される。
+                 過去のADR のステータスが廃止に変更され、新しいADRに
+                 置き換えられた情報が追記される。
 
 -l TARGET:LINK:REVERSE-LINK
                 Links the new ADR to a previous ADR.  

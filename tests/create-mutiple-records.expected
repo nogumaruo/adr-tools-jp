@@ -1,26 +1,28 @@
 adr new First Decision
-doc/adr/0001-first-decision.md
+doc/adr/001-first-decision.md
 adr new Second Decision
-doc/adr/0002-second-decision.md
+doc/adr/002-second-decision.md
 adr new Third Decision
-doc/adr/0003-third-decision.md
+doc/adr/003-third-decision.md
 ls doc/adr
-0001-first-decision.md
-0002-second-decision.md
-0003-third-decision.md
-head -7 doc/adr/0002-second-decision.md
+001-first-decision.md
+002-second-decision.md
+003-third-decision.md
+head -8 doc/adr/002-second-decision.md
 # 2. Second Decision
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-Accepted
-head -7 doc/adr/0003-third-decision.md
+提案中
+head -8 doc/adr/003-third-decision.md
 # 3. Third Decision
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-Accepted
+提案中

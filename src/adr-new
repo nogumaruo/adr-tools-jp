@@ -99,24 +99,25 @@ else
     newnum=1
 fi
 
-newid=$(printf "%04d" $newnum)
+newid=$(printf "%03d" $newnum)
 slug=$(echo -n $title | tr -Ccs [:alnum:] - | tr [:upper:] [:lower:] | sed -e 's/[^[:alnum:]]*$//' -e 's/^[^[:alnum:]]*//')
 dstfile=$dstdir/$newid-$slug.md
 date=${ADR_DATE:-$(date +%Y-%m-%d)}
 
 mkdir -p $dstdir
 cat $template | sed \
-    -e "s|NUMBER|$newnum|" \
-    -e "s|TITLE|$title|" \
-    -e "s|DATE|$date|" \
-    -e "s|STATUS|Accepted|" \
+    -e "s|{NUMBER}|$newnum|" \
+    -e "s|{TITLE}|$title|" \
+    -e "s|{DATE}|$date|" \
+    -e "s|{STATUS}|提案中|" \
     > $dstfile
 
 for target in "${superceded[@]}"
 do
-	"$adr_bin_dir/_adr_add_link" "$target" "Superceded by" "$dstfile"
-	"$adr_bin_dir/_adr_remove_status" "Accepted" "$target"
-	"$adr_bin_dir/_adr_add_link" "$dstfile" "Supercedes" "$target"
+	"$adr_bin_dir/_adr_add_link" "$target" "廃止 by" "$dstfile"
+	"$adr_bin_dir/_adr_remove_status" "提案中" "$target"
+	"$adr_bin_dir/_adr_remove_status" "受理" "$target"
+	"$adr_bin_dir/_adr_add_link" "$dstfile" "廃止" "$target"
 done
 
 for l in "${links[@]}"

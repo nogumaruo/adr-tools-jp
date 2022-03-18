@@ -1,19 +1,67 @@
-# NUMBER. TITLE
+# {NUMBER}. {TITLE}
 
-Date: DATE
+日付: {DATE}
+決定者: @xxx, @xxx
 
-## Status
+## ステータス
 
-STATUS
+{STATUS}
 
-## Context
+## コンテキストと問題点の説明
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+```記載後は削除してください。
+この決定を必要とする理由は何ですか？
+この決定がない場合の問題点は何ですか？
+プロジェクトを取り巻く技術・社会・政治的な背景は何ですか？
+```
 
-## Decision
+## 決定要因
 
-The change that we're proposing or have agreed to implement.
+```記載後は削除してください。
+何が決定の後押しになるのか？を記載
+例）
+○○を使用した場合コストに比べて効果が上回るか？
+○○を使用した場合既存より品質は向上するか？
+○○を使用した場合納期は早くなるのか？
+etc.
+```
 
-## Consequences
+## 検討した選択肢
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+```記載後は削除してください。
+何が決定の後押しになるのか？を記載
+とり得る選択肢
+箇条書きレベルでOK。
+例）
+○○を使用する
+○○を使用しない
+```
+
+## 決定事項
+
+```記載後は削除してください。
+実現方法
+採用する技術・設計思想（言語・ライブラリ・フレームワーク など）
+決定に至った理由や背景
+採用しなかった技術や設計に対する理由
+```
+
+## 検討したこと
+
+```記載後は削除してください。
+選択肢を考えるにあたって検討したことを記載（複数記載OK）
+コンフルのリンクを記載しても良い
+例）
+○○ではなくて△△を使えば事足りるのではないか？
+（つらつらと検討したことを記載する）
+上記より△△では足りないと判断した。
+```
+
+## 結果
+
+```記載後は削除してください。
+ADRを適用した後のコンテキストについて記載
+良かった点だけでなく悪かった点を含めリストアップすることが望まれる
+
+```
+

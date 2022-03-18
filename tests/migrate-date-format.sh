@@ -4,6 +4,6 @@ adr init
 	adr new With Old Date Format
 )
 adr new With Current Date Format
-grep Date: doc/adr/*
+grep 日付: doc/adr/*
 adr upgrade-repository
-grep Date: doc/adr/*
+grep 日付: doc/adr/*

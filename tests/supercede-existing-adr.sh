@@ -1,5 +1,5 @@
 adr new First Record
 adr new -s 1 Second Record
-head -10 doc/adr/0001-first-record.md
-head -12 doc/adr/0002-second-record.md
+head -11 doc/adr/001-first-record.md
+head -13 doc/adr/002-second-record.md
 

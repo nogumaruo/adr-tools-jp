@@ -1,53 +1,56 @@
 adr init adrs
-adrs/0001-record-architecture-decisions.md
+adrs/001-record-architecture-decisions.md
 mkdir -p adrs/templates
 cat > adrs/templates/template.md <<EOF
-# TITLE
+# {TITLE}
 
 Project specific template!
 
 # Status
 
-STATUS
+{STATUS}
 
 # Info
 
-ADR Number: NUMBER
+ADR Number: {NUMBER}
 
-Date: DATE
+日付: {DATE}
+決定者: @xxx, @xxx
 
 EOF
 adr new Aaa Bbb
-adrs/0002-aaa-bbb.md
+adrs/002-aaa-bbb.md
 adr new Ccc Ddd
-adrs/0003-ccc-ddd.md
-cat adrs/0002-aaa-bbb.md
+adrs/003-ccc-ddd.md
+cat adrs/002-aaa-bbb.md
 # Aaa Bbb
 
 Project specific template!
 
 # Status
 
-Accepted
+提案中
 
 # Info
 
 ADR Number: 2
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
-cat adrs/0003-ccc-ddd.md
+cat adrs/003-ccc-ddd.md
 # Ccc Ddd
 
 Project specific template!
 
 # Status
 
-Accepted
+提案中
 
 # Info
 
 ADR Number: 3
 
-Date: 1992-01-12
+日付: 1992-01-12
+決定者: @xxx, @xxx
 
