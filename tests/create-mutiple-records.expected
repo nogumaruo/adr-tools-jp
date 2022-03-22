@@ -8,19 +8,21 @@ ls doc/adr
 001-first-decision.md
 002-second-decision.md
 003-third-decision.md
-head -8 doc/adr/002-second-decision.md
+head -9 doc/adr/002-second-decision.md
 # 2. Second Decision
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
 
 提案中
-head -8 doc/adr/003-third-decision.md
+head -9 doc/adr/003-third-decision.md
 # 3. Third Decision
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス

@@ -1,6 +1,7 @@
 # {NUMBER}. {TITLE}
 
 日付: {DATE}
+
 決定者: @xxx, @xxx
 
 ## ステータス

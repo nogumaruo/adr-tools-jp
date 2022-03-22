@@ -2,10 +2,11 @@ adr new First Record
 doc/adr/001-first-record.md
 adr new -s 1 Second Record
 doc/adr/002-second-record.md
-head -11 doc/adr/001-first-record.md
+head -12 doc/adr/001-first-record.md
 # 1. First Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
@@ -14,10 +15,11 @@ head -11 doc/adr/001-first-record.md
 
 ## コンテキストと問題点の説明
 
-head -13 doc/adr/002-second-record.md
+head -14 doc/adr/002-second-record.md
 # 2. Second Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス

@@ -4,30 +4,33 @@ adr new Second Record
 doc/adr/002-second-record.md
 adr new -s 1 -s 2 Third Record
 doc/adr/003-third-record.md
-head -9 doc/adr/001-first-record.md
+head -10 doc/adr/001-first-record.md
 # 1. First Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
 
 廃止 by [3. Third Record](003-third-record.md)
 
-head -9 doc/adr/002-second-record.md
+head -10 doc/adr/002-second-record.md
 # 2. Second Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
 
 廃止 by [3. Third Record](003-third-record.md)
 
-head -13 doc/adr/003-third-record.md
+head -14 doc/adr/003-third-record.md
 # 3. Third Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス

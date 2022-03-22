@@ -26,10 +26,11 @@ ls doc/adr
 007-seventh-decision.md
 008-eighth-decision.md
 009-ninth-decision.md
-head -8 doc/adr/009-ninth-decision.md
+head -9 doc/adr/009-ninth-decision.md
 # 9. Ninth Decision
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス

@@ -14,6 +14,7 @@ Project specific template!
 ADR Number: {NUMBER}
 
 日付: {DATE}
+
 決定者: @xxx, @xxx
 
 EOF

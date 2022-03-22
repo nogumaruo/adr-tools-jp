@@ -4,10 +4,11 @@ adr new Second Record
 doc/adr/002-second-record.md
 adr new -l "1:Amends:Amended by" -l "2:Clarifies:Clarified by" Third Record
 doc/adr/003-third-record.md
-head -13 doc/adr/001-first-record.md
+head -14 doc/adr/001-first-record.md
 # 1. First Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
@@ -18,10 +19,11 @@ Amended by [3. Third Record](003-third-record.md)
 
 ## コンテキストと問題点の説明
 
-head -13 doc/adr/002-second-record.md
+head -14 doc/adr/002-second-record.md
 # 2. Second Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
@@ -32,10 +34,11 @@ Clarified by [3. Third Record](003-third-record.md)
 
 ## コンテキストと問題点の説明
 
-head -15 doc/adr/003-third-record.md
+head -16 doc/adr/003-third-record.md
 # 3. Third Record
 
 日付: 1992-01-12
+
 決定者: @xxx, @xxx
 
 ## ステータス
